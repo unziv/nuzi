@@ -1,0 +1,89 @@
+/* Set default font family and size */
+:root{
+  --text: #ffffff;
+  --background: #040208;
+  --primary: #e9c5af;
+  --primaryH: #cfac97;
+  --secondary: #0d0718;
+  --accent: #34b766;
+  --accentH: #2d9f59;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  color: #eee;
+}
+/** {
+  user-select: none;
+}
+/* Style the header */
+h1 {
+  text-align: center;
+  font-size: 48px;
+  margin-top: 20px;
+}
+
+/* Style the list of changes */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.alert {
+  background-color: var(--accent); /* Red */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid #eee;
+  position: relative;
+  top: -4px;
+}
+li {
+  font-size: 24px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 2px solid #eee;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.ins {
+  font-size: 24px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.ins:last-child {
+  border-bottom: none;
+  
+}
+
+/* Style the link back to the main page */
+.a {  
+  text-align: center;
+  font-size: 24px;
+  position: fixed;
+  left: 80%;
+  top: 6%;
+  margin-top: 20px;
+  color: #eee;
+  text-decoration: none;
+  border: 2px solid --primary;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: var(--primary);
+  transition: background-color 0.3s ease;
+}
+
+.a:hover {
+  background-color: var(--primaryH);
+}

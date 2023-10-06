@@ -1,0 +1,10 @@
+Spud Spikes: A tool that you can use to rough up the surface of your potatoes and increase their click value.
+Tater Tornado: A whirlwind of potato power that increases your click production.
+Fryer Upgrade: An upgrade that lets you cook your potatoes into crispy, golden french fries for extra points.
+Potato Peeler: A tool that helps you peel your potatoes faster, allowing you to click more efficiently.
+Masher Machine: A machine that mashes your potatoes into a smooth, creamy consistency, increasing their value.
+Baked Potato Boost: An upgrade that lets you bake your potatoes to perfection, boosting their click value.
+Potato Gun: A powerful gun that shoots out potatoes, increasing your production.
+Potato Mine: A mine that generates potatoes over time, providing a passive source of clicks.
+Potato Chips: A snack that gives you extra energy for clicking.
+Potato Fertilizer: An upgrade that increases the growth rate of your potatoes, allowing you to harvest them faster and earn more points.

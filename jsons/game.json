@@ -1,0 +1,185 @@
+{
+    "player":{
+        "score": 0,
+        "clicks": 1,
+        "perSec": 0
+    },
+    "items":{
+        "Mouse":{
+            "addsec":1,
+            "cost": 1e2
+        },
+        "Farmer":{
+            "addsec":10,
+            "cost": 1200
+        }
+        ,
+        "Grandfather":{
+            "addsec":90,
+            "cost": 27300
+        },
+        "Moon":{
+          "addsec":1215,
+          "cost": 127300
+      }
+
+    },
+    "owned":{
+    },
+    "up":{
+      "More":{
+        "Effect":"Mouse",
+        "cost"  :650
+      },
+      "FarmerUp":{
+        "Effect":"Farmer",
+        "cost"  :2650
+      },
+      "GrandfatherUp":{
+        "Effect":"Grandfather",
+        "cost"  :32650
+      },
+      "MoonUp":{
+        "Effect":"Moon",
+        "cost"  :736530
+      }
+    },
+    "short": {
+        "Million": {
+          "name": "Million",
+          "number": 1e6
+        },
+        "Billion": {
+          "name": "Billion",
+          "number": 1e9
+        },
+        "Trillion": {
+          "name": "Trillion",
+          "number": 1e12
+        },
+        "Quadrillion": {
+          "name": "Quadrillion",
+          "number": 1e15
+        },
+        "Quintillion": {
+          "name": "Quintillion",
+          "number": 1e18
+        },
+        "Sextillion": {
+          "name": "Sextillion",
+          "number": 1e21
+        },
+        "Septillion": {
+          "name": "Septillion",
+          "number": 1e24
+        },
+        "Octillion": {
+          "name": "Octillion",
+          "number": 1e27
+        },
+        "Nonillion": {
+          "name": "Nonillion",
+          "number": 1e30
+        },
+        "Decillion": {
+          "name": "Decillion",
+          "number": 1e33
+        },
+        "Undecillion": {
+          "name": "Undecillion",
+          "number": 1e36
+        },
+        "Duodecillion": {
+          "name": "Duodecillion",
+          "number": 1e39
+        },
+        "Tredecillion": {
+          "name": "Tredecillion",
+          "number": 1e42
+        },
+        "Quattuordecillion": {
+          "name": "Quattuordecillion",
+          "number": 1e45
+        },
+        "Quindecillion": {
+          "name": "Quindecillion",
+          "number": 1e48
+        },
+        "Sexdecillion": {
+          "name": "Sexdecillion",
+          "number": 1e51
+        },
+        "Septendecillion": {
+          "name": "Septendecillion",
+          "number": 1e54
+        },
+        "Octodecillion": {
+          "name": "Octodecillion",
+          "number": 1e57
+        },
+        "Novemdecillion": {
+          "name": "Novemdecillion",
+          "number": 1e60
+        },
+        "Vigintillion": {
+          "name": "Vigintillion",
+          "number": 1e63
+        },
+        "Unvigintillion": {
+          "name": "Unvigintillion",
+          "number": 1e66
+        },
+        "Duovigintillion": {
+          "name": "Duovigintillion",
+          "number": 1e69
+        },
+        "Trevigintillion": {
+          "name": "Trevigintillion",
+          "number": 1e72
+        },
+        "Quattuorvigintillion": {
+          "name": "Quattuorvigintillion",
+          "number": 1e75
+        },
+        "Quinvigintillion": {
+          "name": "Quinvigintillion",
+          "number": 1e78
+        },
+        "Sexvigintillion": {
+          "name": "Sexvigintillion",
+          "number": 1e81
+        },
+        "Septenvigintillion": {
+          "name": "Septenvigintillion",
+          "number": 1e84
+        },
+        "Octovigintillion": {
+          "name": "Octovigintillion",
+          "number": 1e87
+        },
+        "Novemvigintillion": {
+          "name": "Novemvigintillion",
+          "number": 1e90
+        },
+        "Trigintillion": {
+          "name": "Trigintillion",
+          "number": 1e93
+        },
+        "Untrigintillion": {
+          "name": "Untrigintillion",
+          "number": 1e96
+        },
+        "Duotrigintillion": {
+          "name": "Duotrigintillion",
+          "number": 1e99
+        },
+        "Tretrigintillion": {
+          "name": "Tretrigintillion",
+          "number": 1e102
+        },
+        "Quattuortrigintillion": {
+          "name": "Quattuortrigintillion",
+          "number": 1e105
+        }
+    }
+}

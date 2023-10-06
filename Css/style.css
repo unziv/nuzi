@@ -1,0 +1,379 @@
+/* Set default font family and size */
+
+:root{
+  --text: #ffffff;
+  --background: #040208;
+  --primary: #e9c5af;
+  --primaryH: #cfac97;
+  --img: #fff4ed;
+  --imgH: #e1d6cf;
+  --secondary: #0d0718;
+  --accent: #34b766;
+  --accentH: #2d9f59;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  color: #eee;
+}
+* {
+  user-select: none;
+}
+/* Style the header */
+#te {
+  text-align: center;
+  font-size: 48px;
+  margin-top: 20px;
+}
+
+/* Style the image */
+#click {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  transition: transform 0.1s ease;
+  touch-action: manipulation;
+}
+
+#click:hover {
+  transform: scale(1.1);
+}
+
+#click:active {
+  animation-name: shake;
+  animation-duration: 0.1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  10%, 90% { transform: translateX(-5px); }
+  20%, 80% { transform: translateX(5px); }
+  30%, 50%, 70% { transform: translateX(-5px); }
+  40%, 60% { transform: translateX(5px); }
+  100% { transform: translateX(0); }
+}
+
+/* Style the score */
+#score {
+  text-align: center;
+  font-size: 64px;
+  margin-top: 20px;
+}
+.left {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.right {
+  float: right;
+  width: 50%;
+  text-align: center;
+}
+.left-h5, .right-h5 {
+  text-align: center;
+  font-size: x-large;
+  margin-top: -10px;
+
+}
+
+/* Style the per second score */
+#persec {
+  text-align: center;
+  font-size: 24px;
+  margin-top: -60px;
+}
+
+/* Style the shop heading */
+h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 20px;
+}
+.img{
+  text-align: center;
+  font-size: 16px;
+  margin-top: 0px;
+  cursor: pointer;
+  border: 2px solid var(--img);
+  color: var(--text);
+  padding: 5px 5px;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: var(--img);
+  transition: background-color 0.3s ease;
+  font-weight: normal;
+  width: 3%; /* Set the desired width */
+  height: auto;
+}
+
+/* Style the "More" button */
+.item {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: 2px solid var(--primary);
+  color: var(--text);
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: var(--primary);
+  transition: background-color 0.3s ease;
+  font-weight: normal;
+}
+
+.item:hover {
+  background-color: var(--primaryH);
+  border: 2px solid #f2e7e0;
+}
+.itemtop {
+  text-align: center;
+  font-size: 16px;
+  margin-top: -1000px;
+  cursor: pointer;
+  border: 2px solid var(--primary);
+  color: var(--text);
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: var(--primary);
+  transition: background-color 0.3s ease;
+  font-weight: normal;
+}
+
+.itemtop:hover {
+  background-color: var(--primaryH);
+  border: 2px solid #f2e7e0;
+}
+.save {
+  background-color: var(--accent); /* Red */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid --accent;
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  animation: fade-out 3s forwards;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.alert {
+  background-color: var(--accent); /* Red */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid #eee;
+  position: fixed;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  animation: fade-out 7s forwards;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.switch input[type="checkbox"]::before {
+  content: "\2714";  /* Unicode value for check mark icon */
+  display: inline-block;
+  width: 10000em;  /* Adjust size as needed */
+  height: 10000em;  /* Adjust size as needed */
+  font-size: 5.5em;  /* Increase font size to make check mark bigger */
+  text-align: center;
+  line-height: 1em;
+  margin-right: 0.5em;  /* Add some spacing between check mark and slider */
+}
+#clear-data{
+  text-align: center;
+  font-size: 18px;
+  margin-top: -10px;
+  cursor: pointer;
+  border: 2px solid #eee;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: #333;
+  transition: background-color 0.3s ease;
+}
+#cleat-data:hover {
+  background-color: var(--accentH);
+}
+.smallitem {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  color: #eee;
+  text-decoration: none;
+  border: 2px solid --accent;
+  padding: 2px 4px;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: var(--accent);
+  position: fixed;
+  bottom: 10px;
+  left: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.smallitem:hover {
+  background-color: var(--accentH);
+}
+.verison{
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10px;
+  cursor: default;
+  color: #eee;
+  text-decoration: none;
+  border-radius: 10px;
+  display: inline-block;
+  position: fixed;
+  bottom: 13px;
+  left: 130px;
+  transition: background-color 0.3s ease;
+}
+hr{
+    color: #ffffff;
+}
+.Rights{
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10px;
+  cursor: default;
+  color: #eee;
+  text-decoration: none;
+  border-radius: 10px;
+  display: inline-block;
+  position: fixed;
+  bottom: 13px;
+  left: 230px;
+  transition: background-color 0.3s ease;
+}
+.discord {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  color: #eee;
+  text-decoration: none;
+  border: 2px solid --accent;
+  padding: 2px 4px;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: var(--accent);
+  position: fixed;
+  bottom: 10px;
+  left: 375px;
+  transition: background-color 0.3s ease;
+}
+
+.discord:hover {
+  background-color: var(--accentH);
+}
+
+.down {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  color: #eee;
+  text-decoration: none;
+  border: 2px solid #eee;
+  padding: 2px 4px;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: #333;
+  position: fixed;
+  bottom: 10px;
+  left: 555px;
+  transition: background-color 0.3s ease;
+}
+
+.down:hover {
+  background-color: #444;
+}
+
+@media only screen and (max-width: 600px) {
+  .smallitem, .verison, .Rights, .discord .down .alert {
+    font-size: 10px;
+  }
+
+  .smallitem {
+    bottom: 10px;
+    left: 10px;
+  }
+
+  .verison {
+    bottom: 13px;
+    left: 80px;
+  }
+
+  .Rights {
+    bottom: 13px;
+    left: 170px;
+  }
+
+  .discord {
+    bottom: 10px;
+    left: 280px;
+    font-size: 10px;
+  }
+  .down {
+    bottom: 10px;
+    left: 10000px;
+  }
+
+  .alert {
+    background-color: #f44336; /* Red */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  .img{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 2px solid var(--img);
+    color: var(--text);
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: var(--img);
+    transition: background-color 0.3s ease;
+    font-weight: normal;
+    width: 20%; /* Set the desired width */
+    height: auto;
+  }
+  
+}

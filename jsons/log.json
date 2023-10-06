@@ -1,0 +1,46 @@
+{
+    "0.8":[
+        "+ Added UPGRADES!",
+        "+ Added New Item!",
+        "- Fixed Bugs",
+        "+ Added Icons",
+        "+ Added SFX"
+    ],
+    "0.6.9":["- What"],
+    "0.6.3":["- Fixed Undfind Items"],
+    "0.6":[
+        "+ New Custom Alert",
+        "- Removed a Lot of Items",
+        "+ New Colour Design",
+        "- Fix Save Problems",
+        "- Fix Prices Problems",
+        "+ New System For Changelog Using Json"
+
+    ],
+    "0.5.5":["- Fix Save Problems"],
+    "0.5.4":[
+        "+ Shortened the numbers",
+        "+ Added a button to enable and disable the auto-save feature",
+        "+ You Can Press (CTRL + S) to Save"
+    ],
+    "0.5":[
+        "+ 25+ More Items",
+        "+ New Save System",
+        "+ Added Clear Button",
+        "+ Added Save Button"
+    ],
+    "0.3.1":["New Look Score Per Sec"],
+    "0.3":[
+        "+ New Items",
+        "+ Added Changelog",
+        "- Removed Item 'More' From The Game",
+        "+ Added A Lot Of Buttons Down"
+    ],
+    "0.2":["The Full Code Changed For Good System"],
+    "0.1":["Shop Added!"],
+    "0.0.1":["The Game Changed"],
+    "0.0.0.0.0.0.0.0.0.1":["The Alpha Game In Public"],
+    "0.0":["Me and the boys just get this idea"],
+    "-0.1":["Wait What??"],
+    "-0.2":["...."]
+}
